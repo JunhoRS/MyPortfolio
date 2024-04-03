@@ -14,6 +14,9 @@ const Navbar = () => {
                     <li><a>Inicio</a></li>
                     <li><a>Portfolio</a></li>
                     <li><a>Acerca de</a></li>
+                    <li><a>Facebook</a></li>
+                    <li><a>Linklin</a></li>
+                    <li><a>Instagram</a></li>
                 </ul>
                 </div>
             </div>
