@@ -1,5 +1,5 @@
 import React from 'react'
-
+//Todo el footer con la informacion de contacto trabajos y demas.
 const Footer = () => {
   return (
     <>
