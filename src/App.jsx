@@ -1,15 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Navbar from "./components/Navbar";
+import ContactPage from "./pages/Contact";
+import { AnimatePresence } from "framer-motion";
 
-function App() {
+const App = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-500 to-purple-600">
-      <h1 className="text-white text-4xl font-bold">¡Hola, Portafolio!</h1>
-    </div>
+    <>
+      <Navbar />
+      <AnimatedBackground />
+      <Home />
+      <About />
+      <Portofolio />
+      <ContactPage />
+    </>
   );
-}
+};
+
 
 export default App;
-
